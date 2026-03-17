@@ -1,0 +1,39 @@
+Tela do jogo - Incompleto
+-=-=-=-=-=-=-=-=-=-=-=-=-
+Fundo do jogo - Completo
+Background - Completo
+Resolução - Completo
+Player (Sprites, Controle, Física) - Completo
+Inimigos & Obstaculos
+Game overs
+Moedas (peixes)
+Randomizer
+
+OBSTACULOS
+- Sprites dos passaros e arvores
+- Importar Sprites
+- Criar objetos
+- Criar a layer
+- Fazer ir para a esquerda
+- Fazer o jogador bater nele
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-
+Tela Inicial - Incompleto
+-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-
+Tela da loja - Incompleto
+-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+
