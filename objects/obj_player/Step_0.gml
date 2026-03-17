@@ -23,3 +23,10 @@ if !image_index = 1 and global.perdeu = false {
 	}
 }
 
+if (global.perdeu) // se perdeu for verdade
+{
+	//gira a imagem do passaro
+	image_angle += 2;
+	//faz ele ir um pouco para trás na animação de morte
+	hspeed = -0.7;
+}
