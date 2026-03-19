@@ -29,9 +29,4 @@ if (global.perdeu) // se perdeu for verdade
 	image_angle += 2;
 	//faz ele ir um pouco para trás na animação de morte
 	hspeed = -0.7;
-	
-	//faz o fundo parar
-	layer_hspeed("bg_arvores", 0);
-	layer_hspeed("bg_reflexo_arvores", 0);
-	layer_hspeed("bg_reflexo2", 0);
 }
