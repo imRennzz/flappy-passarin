@@ -1,5 +1,5 @@
 //inicia com uma seed aleatorio de spawn de arvores
-//randomize();
+randomize();
 
 //cria a arvore em uma altura aleatoria
 var _y_inimigo = random_range(20, 131);

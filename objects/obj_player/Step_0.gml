@@ -6,7 +6,12 @@ var _clica = mouse_check_button_pressed(mb_left)
 
 //fazendo restart no R para testar o game melhor
 var _restart = keyboard_check(ord("R"))
-if _restart {room_restart() global.perdeu = false};
+if _restart 
+{
+	room_restart() 
+	global.perdeu = false
+	reset();
+};
 
 //Colocando limite para não spamar subir, não iniciando a animação 
 //enquanto já estiver em uma
@@ -20,6 +25,9 @@ if !image_index = 1 and global.perdeu = false {
 		//Mudar animação quando ele voa
 		image_index = 1;
 		image_speed = 1;	
+		
+		//tocar efeito sonoro
+		audio_play_sound(snd_pulo, 2, 0, 2, 0, random_range(1, 4));
 	}
 }
 
