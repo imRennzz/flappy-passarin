@@ -2,14 +2,14 @@
 //cria a variavel para quando o jogador perder, iniciando desligada
 global.perdeu = false;
 
+//variavel para os itens da loja estarem ou não bloqueados
+//global.bloqueado = false;
+
 //variavel dos pontos
 global.pontos = 0;
 
 //variavel dos leveis
 global.level = 1;
-
-//Array para pontos necessarios para mudar de level
-global.lista_pontos = [100, 250, 500, 800, 1200, 1500, 1800, 2100, 2500]
 
 //velocidade dos inimigos (arvores, passaros)
 global.vel_inimigos = [3, 5];
@@ -17,7 +17,19 @@ global.vel_inimigos = [3, 5];
 //global dos coletáveis
 global.coletavel = 0;
 
+//global para a sprite do player
+global.sprite_player = spr_passaro1;
+
 #endregion 
+
+#region Arrays/Listas
+//lista dos pontos para trocar de level
+global.lista_pontos = [100, 250, 500, 800, 1200, 1500, 1800, 2100, 2500]
+
+//lista dos itens bloqueados ou desbloqueados
+global.itens_bloqueados = [false, true, true];
+
+#endregion
 
 #region Funções
 //Criando minha função para perder o jogo

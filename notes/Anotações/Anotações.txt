@@ -4,12 +4,12 @@ Fundo do jogo - Completo
 Background - Completo
 Resolução - Completo
 Player (Sprites, Controle, Física) - Completo
-Inimigos & Obstaculos
-Game overs
-Moedas (peixes)
-Randomizer
+Inimigos & Obstaculos - Completo
+Game overs - Completo
+Moedas (peixes) - Completo
+Randomizer - Completo
 
-OBSTACULOS
+OBSTACULOS [Completo]
 - Sprites dos passaros e arvores
 - Importar Sprites
 - Criar objetos

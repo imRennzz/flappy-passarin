@@ -19,7 +19,7 @@ if global.perdeu == false
 			//aumenta a velocidade do cenario
 			layer_hspeed("bg_arvores", -global.level);
 			layer_hspeed("bg_reflexo_arvores", -global.level);
-			layer_hspeed("bg_reflexo2", -global.level);			
+			layer_hspeed("bg_reflexo2", -global.level);	
 		}
 	}
 }

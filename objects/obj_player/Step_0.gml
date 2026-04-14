@@ -13,6 +13,16 @@ if _restart
 	reset();
 };
 
+//fazendo voltar ao menu principal com ESC
+var _voltar = keyboard_check(vk_escape);
+if _voltar
+{
+	room_goto(rm_inicial);
+	audio_stop_sound(snd_level);
+	reset();
+	global.perdeu = false;
+}
+
 //Colocando limite para não spamar subir, não iniciando a animação 
 //enquanto já estiver em uma
 if !image_index = 1 and global.perdeu = false {
