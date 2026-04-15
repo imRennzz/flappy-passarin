@@ -29,6 +29,8 @@ global.lista_pontos = [100, 250, 500, 800, 1200, 1500, 1800, 2100, 2500]
 //lista dos itens bloqueados ou desbloqueados
 global.itens_bloqueados = [false, true, true];
 
+//lista de sons de confirmação e negação
+global.sfx = [snd_confirma, snd_nega]
 #endregion
 
 #region Funções

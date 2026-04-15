@@ -20,6 +20,8 @@ if global.perdeu == false
 			layer_hspeed("bg_arvores", -global.level);
 			layer_hspeed("bg_reflexo_arvores", -global.level);
 			layer_hspeed("bg_reflexo2", -global.level);	
+			//toca som quando aumenta o level
+			audio_play_sound(snd_sobelevel, 5, 0)
 		}
 	}
 }

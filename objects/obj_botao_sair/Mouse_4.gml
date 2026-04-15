@@ -12,3 +12,6 @@ layer_sequence_create("transicao", 640/2, 360/2, sq_fadein);
 //indo para a room destinada à cada botão
 alarm[0] = game_get_speed(gamespeed_fps);
 
+//toca som 
+var _nega = global.sfx[1];
+audio_play_sound(_nega, 1, 0);
